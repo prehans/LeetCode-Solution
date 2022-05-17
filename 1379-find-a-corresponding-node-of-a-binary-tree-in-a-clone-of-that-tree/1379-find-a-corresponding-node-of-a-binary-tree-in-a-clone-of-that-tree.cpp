@@ -17,7 +17,6 @@ public:
     }
     TreeNode* traverse(TreeNode* original,TreeNode* cloned,TreeNode* target,TreeNode*&num)
     {
-       // TreeNode* temp=cloned;
         if(original!=NULL)
         {
            traverse(original->left,cloned->left,target,num);
@@ -25,15 +24,8 @@ public:
                  {
                   num=cloned;
                  }
-          //   traverse(cloned->left,original->left,target,num);
              traverse(original->right,cloned->right,target,num);
         }
         return num;
     }
-   /* TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target)
-    {
-        TreeNode* num;
-        return traverse(original,cloned,target,num);
-        
-    }*/
 };
