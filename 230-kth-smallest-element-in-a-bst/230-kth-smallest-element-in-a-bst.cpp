@@ -15,14 +15,15 @@ public:
     void inorder(TreeNode* root)
     {
         if(root==NULL)
-            return ;
+            return;
         inorder(root->left);
         vt.push_back(root->val);
         inorder(root->right);
-        
     }
+    
     int kthSmallest(TreeNode* root, int k) {
         inorder(root);
         return vt[k-1];
+        
     }
 };
