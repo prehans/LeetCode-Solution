@@ -23,7 +23,6 @@ public:
     }
     int kthSmallest(TreeNode* root, int k) {
         inorder(root);
-        sort(vt.begin(),vt.end());
         return vt[k-1];
     }
 };
