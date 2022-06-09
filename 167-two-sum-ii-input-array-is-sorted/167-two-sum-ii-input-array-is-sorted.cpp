@@ -1,10 +1,9 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
-        vector<int> vt;
+        vector<int>vt;
         int n=numbers.size();
-        sort(numbers.begin(),numbers.end());
-        int l=0,r=n-1;
+        int l=0, r=n-1;
         while(l<r)
         {
             if(numbers[l]+numbers[r]==target)
