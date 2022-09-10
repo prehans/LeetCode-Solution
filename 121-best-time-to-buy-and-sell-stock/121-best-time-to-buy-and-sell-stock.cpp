@@ -11,11 +11,7 @@ public:
             if(min>prices[i])
             {
                 min=prices[i];
-               // index=i;
             }
-  //      }
-  //      for(int j=index+1;j<prices.size();j++)
-      //  {
            else if(profit<prices[i]-min)
             {
                 profit=prices[i]-min;
