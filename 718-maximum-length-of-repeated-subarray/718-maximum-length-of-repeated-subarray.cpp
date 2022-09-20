@@ -10,10 +10,7 @@ public:
         {
             for(int j=0;j<=m;j++)
             {
-               if(i==0 || j==0)
-               {
                  dp[i][j]=0;
-               }
             } 
         }
         for(int i=1;i<=n;i++)
@@ -22,8 +19,6 @@ public:
             {
                 if(nums1[i-1]==nums2[j-1])
                     dp[i][j]=1+dp[i-1][j-1];
-                else
-                    dp[i][j]=0;
             }
         }
         int ans=-1;
