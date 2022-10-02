@@ -24,7 +24,7 @@ All of your suggestions are welcome!!
 ### 1) Check if your code is already present the library.
 ### 2) If it is present then please don't add your code. If you could make the existing code better, then go ahead.
 ### 3) Follow the camelCase naming convention for source files.
-### 4) If you want to make a folder, please keep the first letter of the folder name capital.
+### 4) Make sure you add a folder which contains a readme file of description of the question and another file which contains its code.
 ### 5) Add your code to the proper folder.
 
 # NOTE : After successfull submission do not forgot to add your name in CONTRIBUTING.md file.
