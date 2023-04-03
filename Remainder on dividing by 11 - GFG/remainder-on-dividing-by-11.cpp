@@ -21,10 +21,10 @@ public:
        for(int i=0;i<n;i++)
        {
            num=num*10+x[i]-'0';
-           num=num%11;
+          num=num%11;
        }
     //   cout<<num;
-       return num;
+       return num%11;
     
     }
 };
